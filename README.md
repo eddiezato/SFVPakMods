@@ -8,7 +8,7 @@ Simple tool for order and toggle your pak mods for SFV
 ---
 
 ### Download
-[releases](https://github.com/eddiezato/SFVPakMods/releases) (Windows x86/x64, .NET Framework 4.6)
+[Releases](https://github.com/eddiezato/SFVPakMods/releases) (Windows x86/x64, .NET Framework 4.6)
 
 ---
 
