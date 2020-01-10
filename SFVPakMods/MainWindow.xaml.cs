@@ -6,6 +6,7 @@ using System.Configuration;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
@@ -355,7 +356,8 @@ namespace SFVPakMods
 
         private void MenuAbout_Click(object sender, RoutedEventArgs e)
         {
-            MDMessageBox("SFVPakMods\n\nDeveloped by github.com/eddiezato\nIcon by mattahan.com\nTheme by Google & materialdesigninxaml.net");
+            string version = Assembly.GetExecutingAssembly().GetName().Version.ToString();
+            MDMessageBox("SFVPakMods " + version + "\n\nDeveloped by github.com/eddiezato\nIcon by mattahan.com\nTheme by Google & materialdesigninxaml.net");
         }
     }
 }
