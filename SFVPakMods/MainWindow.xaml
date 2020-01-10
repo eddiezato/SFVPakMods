@@ -62,8 +62,8 @@
                                 <Style TargetType="TextBlock">
                                     <Style.Triggers>
                                         <DataTrigger Binding="{Binding Path=Enabled}" Value="False">
-                                            <Setter Property="Foreground" Value="{DynamicResource MaterialDesignSelection}"/>
-                                            <Setter Property="FontWeight" Value="Light" />
+                                            <Setter Property="Foreground" Value="{DynamicResource MaterialDesignLightForeground}"/>
+                                            <Setter Property="FontWeight" Value="Medium" />
                                         </DataTrigger>
                                     </Style.Triggers>
                                 </Style>
